@@ -1,0 +1,8 @@
+runtime: java11
+instance_class: B4_1G
+manual_scaling:
+  instances: 2
+env_variables:
+  SPRING_PROFILES_ACTIVE: cloud
+  # REPLACE PROJECT_ID with your project ID!
+  MESSAGES_ENDPOINT: http://guestbook-service-dot-upbeat-agent-279217.uc.r.appspot.com/guestbookMessages
